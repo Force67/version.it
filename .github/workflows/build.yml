@@ -35,7 +35,7 @@ jobs:
       - name: Set it again
         run: git config --global --add safe.directory $GITHUB_WORKSPACE
       - name: Tag stuff with version-it
-        uses: Force67/version.it@master
+        uses: Force67/version.it@main
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
