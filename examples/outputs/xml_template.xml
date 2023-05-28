@@ -1,0 +1,475 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<changes>
+
+<version number="1.0.0">
+    <change>
+        <group>tweak</group>
+        <hash>00118340c6104071062fad1c4ee0625f8f520547</hash>
+        <date>2023-01-25</date>
+        <author>Vincent Hengel</author>
+        <message>begin test coverage</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>be61abec0d0a71aa47d540650b0f55e737ef7935</hash>
+        <date>2023-01-19</date>
+        <author>Vincent Hengel</author>
+        <message>improve spec even moar</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>2d3765d6c03492ac554285e11583ce8109ac9cb1</hash>
+        <date>2023-01-19</date>
+        <author>Vincent Hengel</author>
+        <message>some more documentation work</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>ffe0ece787de58076bb55fd6a0dc89b01430549b</hash>
+        <date>2022-12-05</date>
+        <author>Vincent Hengel</author>
+        <message>refactor state</message>
+    </change>
+</version>
+
+<version number="1.0.12">
+    <change>
+        <group>tweak</group>
+        <hash>d94fd4534d3b9b6dc4803a4a3c77be645d2bf7b1</hash>
+        <date>2023-02-03</date>
+        <author>Vincent Hengel</author>
+        <message>update regex</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>53f8648a403107b65d684dccfa779c164f5bb79e</hash>
+        <date>2023-02-03</date>
+        <author>Vincent Hengel</author>
+        <message>more options</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>b19b9379244e28e6e04299768e0cf26cb48aac74</hash>
+        <date>2023-02-02</date>
+        <author>Vincent Hengel</author>
+        <message>empty message</message>
+    </change>
+</version>
+
+<version number="1.0.29">
+    <change>
+        <group>tweak</group>
+        <hash>983b2f7d3dc9d6e92e02e9b4a71112e4e82d73da</hash>
+        <date>2023-02-03</date>
+        <author>Vincent Hengel</author>
+        <message>full history build mode</message>
+    </change>
+</version>
+
+<version number="1.0.47">
+    <change>
+        <group>tweak</group>
+        <hash>8e3bbde9307bb9ac0f4cc219cef6f10bd1b9934a</hash>
+        <date>2023-02-03</date>
+        <author>Vincent Hengel</author>
+        <message>version.it test</message>
+    </change>
+</version>
+
+<version number="1.0.8">
+    <change>
+        <group>tweak</group>
+        <hash>9ef003aa04d889dde7908bb50aed1e21f647f80f</hash>
+        <date>2023-01-28</date>
+        <author>Vincent Hengel</author>
+        <message>more questionable code</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>a2d2aa9007a8a4a46221c77449eee405d5b882f2</hash>
+        <date>2023-01-28</date>
+        <author>Vincent Hengel</author>
+        <message>test</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>a13f0648ddd243ffb5483816d1b84d11ace46460</hash>
+        <date>2023-01-28</date>
+        <author>Vincent Hengel</author>
+        <message>enable link embedding in markdown</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>555abb42d36df2465f251a70049e7b61a1a538cf</hash>
+        <date>2023-01-28</date>
+        <author>Vincent Hengel</author>
+        <message>increase test cov</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>a18880e940ddac50058766be550c628ae063ec3a</hash>
+        <date>2023-01-26</date>
+        <author>Vincent Hengel</author>
+        <message>final change for today!</message>
+    </change>
+    <change>
+        <group>style</group>
+        <hash>7b810c55739dbc55bafc00a8b4e703874ce1d2c0</hash>
+        <date>2023-01-26</date>
+        <author>Vincent Hengel</author>
+        <message>formatter & linter</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>74ea18806c3a30fb05935f5e9fe94588c958b364</hash>
+        <date>2023-01-25</date>
+        <author>Vincent Hengel</author>
+        <message>todo</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>1bfe97c9ba54c72535fcb377ac47fccca12d5f20</hash>
+        <date>2023-01-25</date>
+        <author>Vincent Hengel</author>
+        <message>some change</message>
+    </change>
+</version>
+
+<version number="1.0.9">
+    <change>
+        <group>fix</group>
+        <hash>696a3565b43fd4885d5eca812d849d9efdbdc7c6</hash>
+        <date>2023-01-29</date>
+        <author>Vincent Hengel</author>
+        <message>test</message>
+    </change>
+</version>
+
+<version number="1.1.83">
+    <change>
+        <group>feat</group>
+        <hash>acc7372ae5d2306babc1b53495a85ea6d0e02b39</hash>
+        <date>2023-02-04</date>
+        <author>Vincent Hengel</author>
+        <message>C Header exporter</message>
+    </change>
+</version>
+
+<version number="1.11.156">
+    <change>
+        <group>tweak</group>
+        <hash>8749c775dc20a63597243694c7c43867bf821514</hash>
+        <date>2023-02-14</date>
+        <author>Vincent Hengel</author>
+        <message>changes</message>
+    </change>
+</version>
+
+<version number="1.11.158">
+    <change>
+        <group>tweak</group>
+        <hash>1c523102805167500e054db0bdb4bccadd84bc90</hash>
+        <date>2023-02-14</date>
+        <author>Vincent Hengel</author>
+        <message>adjust json exporter</message>
+    </change>
+</version>
+
+<version number="1.13.171">
+    <change>
+        <group>tweak</group>
+        <hash>245abc040b7d501bf7b932fdaacd04e0d0675eb0</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>big brain changes</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>6fc719ba485d1c651a095b789e95ad9db007442f</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>provide versioning scheme specific variables</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>fb4e96b024c101de4092e4782d5264904a6d3f36</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>ci</message>
+    </change>
+    <change>
+        <group>feat</group>
+        <hash>12a077d24fee09bf3afb55105bd71f107a8d6ea3</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>improve a bunch of jinja templates</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>56063663bc8a12871de6891e99a6a7214af00a73</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>just instantiate the templating engine once. no more custom exporters.</message>
+    </change>
+    <change>
+        <group>feat</group>
+        <hash>fb4f6beaed9658f2101e4200da4406771561b15b</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>Implement jinja2 templating engine</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>aba6ec9d686eccb153a4b542c6a62c5ede53d52d</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>redo config unit test</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>4a403660f7d72d76457b6fe24162c498ff2a7073</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>use gitpython instead of manual git invocation</message>
+    </change>
+    <change>
+        <group>feat</group>
+        <hash>2fb6174e5145186cedd7a12f28cfc26c7315ede1</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>Implement hmtl changelog exporter</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>f50c82c22be20e7d01b51526b1de56534aed478f</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>improve exporters</message>
+    </change>
+    <change>
+        <group>tweak(style)</group>
+        <hash>1c7e9f6bdb71102b50053efc30214233e35aff09</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>Improve cheader gen code.</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>678990fd83f15b628b41063b911178a8e418af28</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>yeet custom logger</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>248ab4f31fee97f21aa18ad2aa04c874a77b9d99</hash>
+        <date>2023-04-15</date>
+        <author>Vincent Hengel</author>
+        <message>support files named .yml for config</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>95ad3ba2229b8482d6c3f902a250201951262f60</hash>
+        <date>2023-03-27</date>
+        <author>Vincent Hengel</author>
+        <message>add reqs</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>01439caf74e2b62fce0bfea74ba07b03f0460a6f</hash>
+        <date>2023-03-27</date>
+        <author>Vincent Hengel</author>
+        <message>add CI</message>
+    </change>
+    <change>
+        <group>fix</group>
+        <hash>9f2242d228cd9e444dacaeb424edd13720869272</hash>
+        <date>2023-03-27</date>
+        <author>Vincent Hengel</author>
+        <message>bandaid fix to restore functionality</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>617efb86193d9e7457d11ba1364614a65c0cdb41</hash>
+        <date>2023-03-14</date>
+        <author>Vincent Hengel</author>
+        <message>small code improvements</message>
+    </change>
+    <change>
+        <group>fix</group>
+        <hash>a43e3cbd0e6bf0b100ac5429db9165f45a82bb25</hash>
+        <date>2023-03-13</date>
+        <author>Vincent Hengel</author>
+        <message>assign right type</message>
+    </change>
+    <change>
+        <group>feat</group>
+        <hash>3f26e3d95c507cdeda50d4d065b3bc41a924dd7c</hash>
+        <date>2023-03-13</date>
+        <author>Vincent Hengel</author>
+        <message>switch to yaml for the config</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>e39940603eab62e69193fba3dc0e7985328e8ed5</hash>
+        <date>2023-02-25</date>
+        <author>Vincent Hengel</author>
+        <message>a tweak</message>
+    </change>
+    <change>
+        <group>feat</group>
+        <hash>03c78d2d08d826b1863dce5f77f6d38fb3a0bd04</hash>
+        <date>2023-02-25</date>
+        <author>Vincent Hengel</author>
+        <message>run-on</message>
+    </change>
+</version>
+
+<version number="1.13.174">
+    <change>
+        <group>tweak</group>
+        <hash>c132e1fc6779a0775cebaa191fa6eec5d77f4d29</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>change commiter</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>585764ec08615c4c5a68dd2ce5ed6995beaa288b</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>cleanup changes</message>
+    </change>
+    <change>
+        <group>fix</group>
+        <hash>d3b637cf08a592c6ec34cabbe56d7ab39e8b4a4e</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>invalid URl</message>
+    </change>
+</version>
+
+<version number="1.23.214">
+    <change>
+        <group>fix</group>
+        <hash>0b6d52e7961f9b7773aed042b4dbb3d19f272a9c</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>last tag assignment</message>
+    </change>
+</version>
+
+<version number="1.33.256">
+    <change>
+        <group>tweak</group>
+        <hash>0b9bdf59fe399b0d9872174e7be7e047a64fed16</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>does that fix it?</message>
+    </change>
+</version>
+
+<version number="1.33.257">
+    <change>
+        <group>tweak</group>
+        <hash>8e846f174764f6cfe0602973a0f6384727fd7407</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>attempt to fix history</message>
+    </change>
+</version>
+
+<version number="1.33.263">
+    <change>
+        <group>fix</group>
+        <hash>c48889a3209bfe2ee6bc962989ae8619afd167b3</hash>
+        <date>2023-04-24</date>
+        <author>Vincent Hengel</author>
+        <message>current_branch</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>fe94cc099a86cf237e015b0310c2e54c0c151872</hash>
+        <date>2023-04-24</date>
+        <author>Vincent Hengel</author>
+        <message>a bunch of fixes</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>bbebda091bf7340a63b9676640baab902105dd0f</hash>
+        <date>2023-04-23</date>
+        <author>Vincent Hengel</author>
+        <message>Does that fix anything????</message>
+    </change>
+    <change>
+        <group>fix</group>
+        <hash>9674ccb5bf08e8fdab748ce09f325b8b8e9dd5cf</hash>
+        <date>2023-04-22</date>
+        <author>Vincent Hengel</author>
+        <message>some updates</message>
+    </change>
+    <change>
+        <group>tweak</group>
+        <hash>8329adbe8e1e44ab0dc6c163801e8248cfc14ee7</hash>
+        <date>2023-04-16</date>
+        <author>Vincent Hengel</author>
+        <message>does this fix all of the things?</message>
+    </change>
+</version>
+
+<version number="1.33.264">
+    <change>
+        <group>tweak</group>
+        <hash>676270dfc2756ec5062283f99d8b1e6753465f05</hash>
+        <date>2023-05-27</date>
+        <author>Vincent Hengel</author>
+        <message>c</message>
+    </change>
+</version>
+
+<version number="1.33.265">
+    <change>
+        <group>tweak</group>
+        <hash>f4bd63e7209a67b6c50723d4a03f98817684abf9</hash>
+        <date>2023-05-28</date>
+        <author>Vincent Hengel</author>
+        <message>cleanup</message>
+    </change>
+</version>
+
+<version number="1.33.266">
+    <change>
+        <group>fix</group>
+        <hash>61c59721d1bb3b3f9fa740a6412ba056c0483bc1</hash>
+        <date>2023-05-28</date>
+        <author>Vincent Hengel</author>
+        <message>unittests</message>
+    </change>
+</version>
+
+<version number="1.8.155">
+    <change>
+        <group>refactor</group>
+        <hash>3f9fdeb8ec029a5ae3fe1478b0d4bd84b74ee052</hash>
+        <date>2023-02-07</date>
+        <author>Vincent Hengel</author>
+        <message>move outputs elsewhere</message>
+    </change>
+    <change>
+        <group>feat</group>
+        <hash>4ae59670943d87e4925961d9c7b72d54fdc58962</hash>
+        <date>2023-02-05</date>
+        <author>Vincent Hengel</author>
+        <message>configurable increment weights</message>
+    </change>
+    <change>
+        <group>feat</group>
+        <hash>5d7fdfbdddee794ac2f60e2d2b7b43cc9bfacbb5</hash>
+        <date>2023-02-05</date>
+        <author>Vincent Hengel</author>
+        <message>improve cheader exporter</message>
+    </change>
+</version>
+
+</changes>

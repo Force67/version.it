@@ -1,0 +1,5 @@
+{%- set output_filename = 'csv_template.csv' -%}
+{% for change in changes -%}
+{{ change.version }},{{ change.group }},{{ change.author }},{{ change.hash }},{{ change.date }},{{ change.message -}}
+{% if not loop.last %},{% endif %}
+{% endfor %}

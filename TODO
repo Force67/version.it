@@ -1,0 +1,2 @@
+
+support some repo init command, that birthes an initial cfg with some defaults. This is useful for new repos, that want to use version-it, but don't have a cfg yet. also create a tag, so that the first version can be calculated & requires the complete write out of the cfg.

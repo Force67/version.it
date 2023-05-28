@@ -1,0 +1,39 @@
+{%- set output_filename = 'cheader_template.h' -%}
+#ifndef VERSION_IT_INCLUDE_GUARD
+#define VERSION_IT_INCLUDE_GUARD
+#define VERSION_IT_VERSION "{{ version }}"
+
+{%- if version_scheme == VersionScheme.SEMANTIC %}
+#define VERSION_IT_USING_SEMANTIC_VERSIONING
+#define VERSION_IT_MAJOR {{ major_version }}
+#define VERSION_IT_MINOR {{ minor_version }}
+#define VERSION_IT_PATCH {{ patch_version }}
+{%- endif %}
+
+#ifdef __cplusplus
+namespace version_it
+{
+  {%- if version_scheme == VersionScheme.SEMANTIC %}
+  constexpr const char kVersionString[] = "{{ version }}";
+  constexpr int major = {{ major_version }};
+  constexpr int minor = {{ minor_version }};
+  constexpr int patch = {{ patch_version }};
+  {%- endif %}
+}
+#endif
+
+#ifdef __cplusplus
+namespace version_it
+{
+  static inline const char* kChangelogEntries[{{ changes|length }}] =
+  {
+    {%- for change in changes %}
+    "{{ change.message }}"{%- if not loop.last %},{%- endif %}
+    {%- endfor %}
+  };
+}
+#endif
+{% for change in changes %}
+// {{ change.version }} {{ change.group }} {{ change.hash }} {{ change.date }} {{ change.author }} {{ change.message -}}
+{% endfor %}
+#endif

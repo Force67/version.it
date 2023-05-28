@@ -1,0 +1,7 @@
+PyYAML
+gitpython
+pytest-mock
+pytest
+Jinja2
+PyInstaller
+requests

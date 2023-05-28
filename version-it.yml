@@ -1,0 +1,73 @@
+# white list of branches, that the tool will run on
+run-on-branches:
+- main
+- master
+- devel
+
+# versioning schemes are: semantic, calver, commit
+versioning-scheme: semantic
+
+# initial version for the tool to start using. 
+# I recommend stripping all former commit tags from the history, or providing the last version
+first-version: 0.0.1
+
+# a directory containg a list of jinja2 template files and an output directory for the generated files
+# if this is not provided, the tool will not generate changelogs
+changelog-exporters:
+  template-path: examples/templates
+  output-path: examples/outputs
+
+# whether to include the branch name in the version e.g. 1.0.0-branch-name
+calver-enable-branch: true
+
+# heading titles for a given changelog label 
+changelog-sections:
+- title: Added
+  labels:
+  - feature
+  - enhancement
+- title: Changed
+  labels:
+  - refactor
+  - improvement
+  - style
+  - tweak
+- title: Fixed
+  labels:
+  - bug
+  - fix
+
+# list of tokens that are stripped from both commit messages and changelogs
+# this is useful for removing tokens that are used for automation, or replacing internal
+# wording for customer facing changelogs
+change-substitutions:
+- token: codename-ariel
+  substitution: version.it
+
+# this tells the versioning engine what to do, when a given label is found
+# - null means that the label is known, but ignored
+# - minor means that the label will cause a minor version bump
+# - patch means that the label will cause a patch version bump
+# - major means that the label will cause a major version bump, i don't recommend this, as this
+#   should be reserved for breaking changes, and thus be done manually
+change-type-map:
+- label: wip
+  action: null
+- label: test
+  action: null
+- label: chore
+  action: null
+- label: refactor
+  action: minor
+- label: feat
+  action: minor
+- label: perf
+  action: minor
+- label: tweak
+  action: patch
+- label: fix
+  action: patch
+- label: docs
+  action: patch
+- label: style
+  action: patch

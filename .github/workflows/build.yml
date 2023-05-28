@@ -1,0 +1,41 @@
+name: Version it CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: "!startsWith(github.event.head_commit.message, 'chore')"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Build Docker image
+        run: docker build -t python-script-image .
+      - name: Set up Python environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.11.0"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run Python script
+        run: python ./python/version_it.py
+      - name: Run Tests
+        run: pytest
+      - name: Upload executable
+        uses: actions/upload-artifact@v2
+        with:
+          name: version_it_executable
+          path: dist/version_it
+  tag-version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetch all history, including tags'
+          set-safe-directory: 'true'
+      - name: Set it again
+        run: git config --global --add safe.directory $GITHUB_WORKSPACE
+      - name: Tag stuff with version-it
+        uses: Force67/version.it@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}

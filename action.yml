@@ -1,0 +1,17 @@
+name: 'Version.it'
+description: 'One-Stop Solution for Streamlined Software Versioning'
+author: 'Vincent Hengel'
+inputs:
+  token:
+    required: true
+    description: 'A personal access token that can access your organisation repos, see https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token for more.'
+  cwd:
+    required: false
+    description: 'The directory where your repository is located. You should use actions/checkout first to set it up'
+    default: '.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  color: 'gray-dark'
+  icon: 'git-branch'

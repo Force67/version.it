@@ -1,0 +1,79 @@
+{% set output_filename = 'html_template.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changes - Version {{ version }}</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            font-size: 1.5em;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #555;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .change {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+        .commit {
+            margin-left: 1em;
+        }
+        p {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+{%- set changes_by_version = changes | groupby('version') %}
+<body>
+    <header>
+        Version.it Changelog
+    </header>
+    <main>
+        <h1>Changes - Version {{ current_version }}</h1>
+        {%- for version, changes in changes_by_version %}
+            <h2>Version {{ version }}</h2>
+            {%- for change_batch in changes | batch(1) %}
+                {%- for change in change_batch %}
+                    <div class="change">
+                        <strong>Group: {{ change.group }}</strong>
+                        <div class="commit">
+                            <p>Hash: {{ change.hash }}</p>
+                            <p>Date: {{ change.date }}</p>
+                            <p>Author: {{ change.author }}</p>
+                            <p>Message: {{ change.message }}</p>
+                        </div>
+                    </div>
+                {%- endfor %}
+            {%- endfor %}
+        {%- endfor %}
+    </main>
+</body>
+</html>

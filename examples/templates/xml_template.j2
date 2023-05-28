@@ -1,0 +1,19 @@
+{% set output_filename = 'xml_template.xml' %}
+<?xml version="1.0" encoding="UTF-8"?>
+<changes>{% set changes_by_version = changes | groupby('version') %}
+{% for version, changes in changes_by_version %}
+<version number="{{ version }}">
+{%- for change_batch in changes | batch(1) %}
+    {%- for change in change_batch %}
+    <change>
+        <group>{{ change.group }}</group>
+        <hash>{{ change.hash }}</hash>
+        <date>{{ change.date }}</date>
+        <author>{{ change.author }}</author>
+        <message>{{ change.message }}</message>
+    </change>
+    {%- endfor %}
+{%- endfor %}
+</version>
+{% endfor %}
+</changes>

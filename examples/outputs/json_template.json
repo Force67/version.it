@@ -1,0 +1,513 @@
+{
+    "json_version": "1.0.0",
+    "changes": [
+        {
+            "version": "1.0.0",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "00118340c6104071062fad1c4ee0625f8f520547",
+                    "date": "2023-01-25",
+                    "author": "Vincent Hengel",
+                    "message": "begin test coverage"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "be61abec0d0a71aa47d540650b0f55e737ef7935",
+                    "date": "2023-01-19",
+                    "author": "Vincent Hengel",
+                    "message": "improve spec even moar"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "2d3765d6c03492ac554285e11583ce8109ac9cb1",
+                    "date": "2023-01-19",
+                    "author": "Vincent Hengel",
+                    "message": "some more documentation work"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "ffe0ece787de58076bb55fd6a0dc89b01430549b",
+                    "date": "2022-12-05",
+                    "author": "Vincent Hengel",
+                    "message": "refactor state"
+                }
+            ]
+        },
+        {
+            "version": "1.0.12",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "d94fd4534d3b9b6dc4803a4a3c77be645d2bf7b1",
+                    "date": "2023-02-03",
+                    "author": "Vincent Hengel",
+                    "message": "update regex"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "53f8648a403107b65d684dccfa779c164f5bb79e",
+                    "date": "2023-02-03",
+                    "author": "Vincent Hengel",
+                    "message": "more options"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "b19b9379244e28e6e04299768e0cf26cb48aac74",
+                    "date": "2023-02-02",
+                    "author": "Vincent Hengel",
+                    "message": "empty message"
+                }
+            ]
+        },
+        {
+            "version": "1.0.29",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "983b2f7d3dc9d6e92e02e9b4a71112e4e82d73da",
+                    "date": "2023-02-03",
+                    "author": "Vincent Hengel",
+                    "message": "full history build mode"
+                }
+            ]
+        },
+        {
+            "version": "1.0.47",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "8e3bbde9307bb9ac0f4cc219cef6f10bd1b9934a",
+                    "date": "2023-02-03",
+                    "author": "Vincent Hengel",
+                    "message": "version.it test"
+                }
+            ]
+        },
+        {
+            "version": "1.0.8",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "9ef003aa04d889dde7908bb50aed1e21f647f80f",
+                    "date": "2023-01-28",
+                    "author": "Vincent Hengel",
+                    "message": "more questionable code"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "a2d2aa9007a8a4a46221c77449eee405d5b882f2",
+                    "date": "2023-01-28",
+                    "author": "Vincent Hengel",
+                    "message": "test"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "a13f0648ddd243ffb5483816d1b84d11ace46460",
+                    "date": "2023-01-28",
+                    "author": "Vincent Hengel",
+                    "message": "enable link embedding in markdown"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "555abb42d36df2465f251a70049e7b61a1a538cf",
+                    "date": "2023-01-28",
+                    "author": "Vincent Hengel",
+                    "message": "increase test cov"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "a18880e940ddac50058766be550c628ae063ec3a",
+                    "date": "2023-01-26",
+                    "author": "Vincent Hengel",
+                    "message": "final change for today!"
+                },
+                {
+                    "group": "style",
+                    "hash": "7b810c55739dbc55bafc00a8b4e703874ce1d2c0",
+                    "date": "2023-01-26",
+                    "author": "Vincent Hengel",
+                    "message": "formatter & linter"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "74ea18806c3a30fb05935f5e9fe94588c958b364",
+                    "date": "2023-01-25",
+                    "author": "Vincent Hengel",
+                    "message": "todo"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "1bfe97c9ba54c72535fcb377ac47fccca12d5f20",
+                    "date": "2023-01-25",
+                    "author": "Vincent Hengel",
+                    "message": "some change"
+                }
+            ]
+        },
+        {
+            "version": "1.0.9",
+            "commits": [
+                {
+                    "group": "fix",
+                    "hash": "696a3565b43fd4885d5eca812d849d9efdbdc7c6",
+                    "date": "2023-01-29",
+                    "author": "Vincent Hengel",
+                    "message": "test"
+                }
+            ]
+        },
+        {
+            "version": "1.1.83",
+            "commits": [
+                {
+                    "group": "feat",
+                    "hash": "acc7372ae5d2306babc1b53495a85ea6d0e02b39",
+                    "date": "2023-02-04",
+                    "author": "Vincent Hengel",
+                    "message": "C Header exporter"
+                }
+            ]
+        },
+        {
+            "version": "1.11.156",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "8749c775dc20a63597243694c7c43867bf821514",
+                    "date": "2023-02-14",
+                    "author": "Vincent Hengel",
+                    "message": "changes"
+                }
+            ]
+        },
+        {
+            "version": "1.11.158",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "1c523102805167500e054db0bdb4bccadd84bc90",
+                    "date": "2023-02-14",
+                    "author": "Vincent Hengel",
+                    "message": "adjust json exporter"
+                }
+            ]
+        },
+        {
+            "version": "1.13.171",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "245abc040b7d501bf7b932fdaacd04e0d0675eb0",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "big brain changes"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "6fc719ba485d1c651a095b789e95ad9db007442f",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "provide versioning scheme specific variables"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "fb4e96b024c101de4092e4782d5264904a6d3f36",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "ci"
+                },
+                {
+                    "group": "feat",
+                    "hash": "12a077d24fee09bf3afb55105bd71f107a8d6ea3",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "improve a bunch of jinja templates"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "56063663bc8a12871de6891e99a6a7214af00a73",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "just instantiate the templating engine once. no more custom exporters."
+                },
+                {
+                    "group": "feat",
+                    "hash": "fb4f6beaed9658f2101e4200da4406771561b15b",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "Implement jinja2 templating engine"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "aba6ec9d686eccb153a4b542c6a62c5ede53d52d",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "redo config unit test"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "4a403660f7d72d76457b6fe24162c498ff2a7073",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "use gitpython instead of manual git invocation"
+                },
+                {
+                    "group": "feat",
+                    "hash": "2fb6174e5145186cedd7a12f28cfc26c7315ede1",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "Implement hmtl changelog exporter"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "f50c82c22be20e7d01b51526b1de56534aed478f",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "improve exporters"
+                },
+                {
+                    "group": "tweak(style)",
+                    "hash": "1c7e9f6bdb71102b50053efc30214233e35aff09",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "Improve cheader gen code."
+                },
+                {
+                    "group": "tweak",
+                    "hash": "678990fd83f15b628b41063b911178a8e418af28",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "yeet custom logger"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "248ab4f31fee97f21aa18ad2aa04c874a77b9d99",
+                    "date": "2023-04-15",
+                    "author": "Vincent Hengel",
+                    "message": "support files named .yml for config"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "95ad3ba2229b8482d6c3f902a250201951262f60",
+                    "date": "2023-03-27",
+                    "author": "Vincent Hengel",
+                    "message": "add reqs"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "01439caf74e2b62fce0bfea74ba07b03f0460a6f",
+                    "date": "2023-03-27",
+                    "author": "Vincent Hengel",
+                    "message": "add CI"
+                },
+                {
+                    "group": "fix",
+                    "hash": "9f2242d228cd9e444dacaeb424edd13720869272",
+                    "date": "2023-03-27",
+                    "author": "Vincent Hengel",
+                    "message": "bandaid fix to restore functionality"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "617efb86193d9e7457d11ba1364614a65c0cdb41",
+                    "date": "2023-03-14",
+                    "author": "Vincent Hengel",
+                    "message": "small code improvements"
+                },
+                {
+                    "group": "fix",
+                    "hash": "a43e3cbd0e6bf0b100ac5429db9165f45a82bb25",
+                    "date": "2023-03-13",
+                    "author": "Vincent Hengel",
+                    "message": "assign right type"
+                },
+                {
+                    "group": "feat",
+                    "hash": "3f26e3d95c507cdeda50d4d065b3bc41a924dd7c",
+                    "date": "2023-03-13",
+                    "author": "Vincent Hengel",
+                    "message": "switch to yaml for the config"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "e39940603eab62e69193fba3dc0e7985328e8ed5",
+                    "date": "2023-02-25",
+                    "author": "Vincent Hengel",
+                    "message": "a tweak"
+                },
+                {
+                    "group": "feat",
+                    "hash": "03c78d2d08d826b1863dce5f77f6d38fb3a0bd04",
+                    "date": "2023-02-25",
+                    "author": "Vincent Hengel",
+                    "message": "run-on"
+                }
+            ]
+        },
+        {
+            "version": "1.13.174",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "c132e1fc6779a0775cebaa191fa6eec5d77f4d29",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "change commiter"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "585764ec08615c4c5a68dd2ce5ed6995beaa288b",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "cleanup changes"
+                },
+                {
+                    "group": "fix",
+                    "hash": "d3b637cf08a592c6ec34cabbe56d7ab39e8b4a4e",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "invalid URl"
+                }
+            ]
+        },
+        {
+            "version": "1.23.214",
+            "commits": [
+                {
+                    "group": "fix",
+                    "hash": "0b6d52e7961f9b7773aed042b4dbb3d19f272a9c",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "last tag assignment"
+                }
+            ]
+        },
+        {
+            "version": "1.33.256",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "0b9bdf59fe399b0d9872174e7be7e047a64fed16",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "does that fix it?"
+                }
+            ]
+        },
+        {
+            "version": "1.33.257",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "8e846f174764f6cfe0602973a0f6384727fd7407",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "attempt to fix history"
+                }
+            ]
+        },
+        {
+            "version": "1.33.263",
+            "commits": [
+                {
+                    "group": "fix",
+                    "hash": "c48889a3209bfe2ee6bc962989ae8619afd167b3",
+                    "date": "2023-04-24",
+                    "author": "Vincent Hengel",
+                    "message": "current_branch"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "fe94cc099a86cf237e015b0310c2e54c0c151872",
+                    "date": "2023-04-24",
+                    "author": "Vincent Hengel",
+                    "message": "a bunch of fixes"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "bbebda091bf7340a63b9676640baab902105dd0f",
+                    "date": "2023-04-23",
+                    "author": "Vincent Hengel",
+                    "message": "Does that fix anything????"
+                },
+                {
+                    "group": "fix",
+                    "hash": "9674ccb5bf08e8fdab748ce09f325b8b8e9dd5cf",
+                    "date": "2023-04-22",
+                    "author": "Vincent Hengel",
+                    "message": "some updates"
+                },
+                {
+                    "group": "tweak",
+                    "hash": "8329adbe8e1e44ab0dc6c163801e8248cfc14ee7",
+                    "date": "2023-04-16",
+                    "author": "Vincent Hengel",
+                    "message": "does this fix all of the things?"
+                }
+            ]
+        },
+        {
+            "version": "1.33.264",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "676270dfc2756ec5062283f99d8b1e6753465f05",
+                    "date": "2023-05-27",
+                    "author": "Vincent Hengel",
+                    "message": "c"
+                }
+            ]
+        },
+        {
+            "version": "1.33.265",
+            "commits": [
+                {
+                    "group": "tweak",
+                    "hash": "f4bd63e7209a67b6c50723d4a03f98817684abf9",
+                    "date": "2023-05-28",
+                    "author": "Vincent Hengel",
+                    "message": "cleanup"
+                }
+            ]
+        },
+        {
+            "version": "1.33.266",
+            "commits": [
+                {
+                    "group": "fix",
+                    "hash": "61c59721d1bb3b3f9fa740a6412ba056c0483bc1",
+                    "date": "2023-05-28",
+                    "author": "Vincent Hengel",
+                    "message": "unittests"
+                }
+            ]
+        },
+        {
+            "version": "1.8.155",
+            "commits": [
+                {
+                    "group": "refactor",
+                    "hash": "3f9fdeb8ec029a5ae3fe1478b0d4bd84b74ee052",
+                    "date": "2023-02-07",
+                    "author": "Vincent Hengel",
+                    "message": "move outputs elsewhere"
+                },
+                {
+                    "group": "feat",
+                    "hash": "4ae59670943d87e4925961d9c7b72d54fdc58962",
+                    "date": "2023-02-05",
+                    "author": "Vincent Hengel",
+                    "message": "configurable increment weights"
+                },
+                {
+                    "group": "feat",
+                    "hash": "5d7fdfbdddee794ac2f60e2d2b7b43cc9bfacbb5",
+                    "date": "2023-02-05",
+                    "author": "Vincent Hengel",
+                    "message": "improve cheader exporter"
+                }
+            ]
+        }
+    ]
+}

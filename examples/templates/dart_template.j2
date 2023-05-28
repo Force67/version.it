@@ -1,0 +1,33 @@
+{%- set output_filename = 'dart_template.dart' -%}
+class VersionIt {
+  static const version = "{{ version }}";
+
+  static const majorVersion = {{ major_version }};
+  static const minorVersion = {{ minor_version }};
+  static const patchVersion = {{ patch_version }};
+
+  // Version scheme checking is performed during class initialization
+  static VersionScheme versionScheme = VersionScheme.SEMANTIC;
+
+  static const versionString = "{{ version }}";
+  static const major = {{ major_version }};
+  static const minor = {{ minor_version }};
+  static const patch = {{ patch_version }};
+
+  // It's common in Dart to use a List for dynamic collections
+  static const changelogEntries = [
+    {%- for change in changes %}
+    "{{ change.message }}"{%- if not loop.last %},{%- endif %}
+    {%- endfor %}
+  ];
+
+  // Changes
+  {% for change in changes %}
+  // {{ change.version }} {{ change.group }} {{ change.hash }} {{ change.date }} {{ change.author }} {{ change.message -}}
+  {% endfor %}
+}
+
+enum VersionScheme {
+  SEMANTIC,
+  // Add any other scheme you might want to support
+}

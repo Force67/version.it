@@ -1,0 +1,23 @@
+{%- set output_filename = 'json_template.json' -%}
+{%- set changes_by_version = changes | groupby('version') -%}
+{
+    "json_version": "1.0.0",
+    "changes": [
+        {%- for version, changes in changes_by_version %}
+        {
+            "version": "{{ version }}",
+            "commits": [
+                {%- for change in changes %}
+                {
+                    "group": "{{ change.group }}",
+                    "hash": "{{ change.hash }}",
+                    "date": "{{ change.date }}",
+                    "author": "{{ change.author }}",
+                    "message": "{{ change.message }}"
+                }{%- if not loop.last %},{% endif -%}
+                {% endfor %}
+            ]
+        }{%- if not loop.last %},{% endif -%}
+        {% endfor %}
+    ]
+}

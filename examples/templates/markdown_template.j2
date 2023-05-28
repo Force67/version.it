@@ -1,0 +1,22 @@
+{% set output_filename = 'changelog_template.md' %}
+# Version.it Changelog
+{{ "\n" }}
+{%- set gpt_prompt = 'Given the info about the repository, summarize the main changes:' -%}
+{{ ai_summary }}
+
+Current Version: {{ current_version }}
+
+{%- set changes_by_version = changes | groupby('version') %}
+{%- for version, changes in changes_by_version %}
+## Version {{ version }}
+
+{%- for change_batch in changes | batch(1) %}
+{%- for change in change_batch %}
+- **Group**: {{ change.group }}
+  - **Hash**: {{ change.hash }}
+  - **Date**: {{ change.date }}
+  - **Author**: {{ change.author }}
+  - **Message**: {{ change.message }}
+{%- endfor %}
+{%- endfor %}
+{% endfor %}
