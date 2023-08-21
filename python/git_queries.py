@@ -135,14 +135,14 @@ class GitRepo:
         repo_path = Path(self.repo.working_dir).resolve()
 
         # Stage the changes
-        subprocess.run(["git", "add"] + filenames, cwd=repo_path, check=True)
+        subprocess.run(["git", "add"] + filenames, cwd=repo_path, check=True, stderr=subprocess.STDOUT)
 
         # Commit the changes
-        subprocess.run(["git", "commit", "-m", message, "--author", f"{author_name} <{author_email}>"], cwd=repo_path, check=True)
+        subprocess.run(["git", "commit", "-m", message, "--author", f"{author_name} <{author_email}>"], cwd=repo_path, check=True, stderr=subprocess.STDOUT)
 
         # Create a new tag
-        subprocess.run(["git", "tag", "-a", new_tag, "-m", f"Version {new_tag}"], cwd=repo_path, check=True)
+        subprocess.run(["git", "tag", "-a", new_tag, "-m", f"Version {new_tag}"], cwd=repo_path, check=True, stderr=subprocess.STDOUT)
 
         # Push the changes and the new tag directly to the specified URL
         current_branch = self.repo.active_branch.name
-        subprocess.run(["git", "push", url, f"{current_branch}:refs/heads/{current_branch}", f"{new_tag}:refs/tags/{new_tag}"], cwd=repo_path, check=True)
+        subprocess.run(["git", "push", url, f"{current_branch}:refs/heads/{current_branch}", f"{new_tag}:refs/tags/{new_tag}"], cwd=repo_path, check=True, stderr=subprocess.STDOUT)
